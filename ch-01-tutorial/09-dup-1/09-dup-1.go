@@ -1,3 +1,6 @@
+// Dup1 prints the text of each line that appears more than
+// once in the standard input, preceded by its count.
+
 package main
 
 import (
@@ -21,7 +24,7 @@ func main() {
 	fmt.Println("Lines that appear more than once: ")
 	for line, n := range counts {
 		if n > 1 {
-			fmt.Printf("%s\t%d\n", line, n)
+			fmt.Printf("%d\t%s\n", n, line)
 		}
 	}
 }
