@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-// 1st approach
+// echo1
 func echo1(args []string) string {
 	s := ""
 	for _, arg := range args {
@@ -18,7 +18,7 @@ func echo1(args []string) string {
 	return s
 }
 
-// 2nd approach
+// echo2
 func echo2(args []string) string {
 	return strings.Join(args, " ")
 }
