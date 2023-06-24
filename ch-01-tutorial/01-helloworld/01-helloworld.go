@@ -1,3 +1,6 @@
+// 1.
+// print "Hello, World" in Go
+
 package main
 
 import "fmt"
