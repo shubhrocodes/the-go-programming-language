@@ -38,6 +38,7 @@ func main() {
 				fmt.Fprintf(os.Stderr, "error opening file: %v\n", err)
 				continue
 			}
+
 			countLines(file, counts)
 			file.Close()
 		}
